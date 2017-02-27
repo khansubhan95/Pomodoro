@@ -1,0 +1,82 @@
+html {
+	position: relative;
+}
+
+body {
+	background-color: #2E295D;
+	color: white;
+	margin-bottom: 60px;
+}
+
+.heading {
+	font-size: 500%;
+	font-family: 'Aref Ruqaa', serif;
+}
+
+.time {
+	display: inline;
+	font-size: 200%;
+}
+
+p {
+	display: inline;
+	font-size: 200%;
+}
+
+i.fa {
+	font-size: 250%;
+}
+
+.circle {
+	border-radius: 50%;
+	border: 1px solid green;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	font-size: 50px;
+}
+
+#clock-time {
+	font-size: 500%;
+}
+
+#time-type {
+	font-size: 500%;
+}
+
+.fa-play {
+	color: green;
+}
+
+.fa-pause {
+	color: lightblue;
+}
+
+.fa-stop {
+	color: red;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #2E295D;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+a,
+a:hover,
+a:active,
+a:focus,
+a:visited {
+	color: white;
+}
